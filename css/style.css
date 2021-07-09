@@ -1,0 +1,70 @@
+/* layout  */
+body{
+    display: flex ;
+}
+.pannel{
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+#left-pannel {
+    background-color: blue;
+}
+#right-pannel{
+    background-color: hotpink;
+}
+/*canvas*/
+#canvas-container{
+    border: 1px solid white;
+}
+/* dropzone */
+#dropzone{
+    width: 320px;
+    height: 90px;
+    border: 1px dashed hotpink;
+
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+#dropzone.dragover{
+    border: 2px solid white;
+    background-color: black;
+}
+/* down button */
+#download-button{
+    width: 320px;
+    height: 40px;
+    margin-top: 5px;
+    background-color: hotpink;
+    cursor: pointer;
+}
+#download-button:hover{
+    background-color: rgb(201, 173, 177);
+}
+/* preset select*/
+#preset-select{
+    margin-top: 5px;
+}
+/* extra*/
+#extra-settings{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#extra-settings p, #extra-settings label{
+    margin: 0;
+    margin-left: 5 px;
+    margin-right: 5px; 
+}
+/*tolerance*/
+#selected-color{
+    height: 20px;
+    width: 40px;
+    background-color: white;
+    border: 1px solid black;
+}
